@@ -20,4 +20,4 @@ function calculateFactorial(num) {
 // // console.log(calculateFactorial('sdfsfsdf'));
 // // console.log(calculateFactorial(-120102));
 // // console.log(calculateFactorial(20));
-//console.log(calculateFactorial(1.4))
+//console.log(calculateFactorial(1.4));
