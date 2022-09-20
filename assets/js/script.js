@@ -1,6 +1,6 @@
 function calculateFactorial(num) {
     let result;
-    if (isNaN(num) || num < 0) {
+    if (isNaN(num) || num < 0 || !Number.isInteger(num)) {
         return NaN;
     };
     if (!isNaN(num)) {
@@ -14,9 +14,10 @@ function calculateFactorial(num) {
     return result;
 };
 
-// console.log(calculateFactorial(2));
-// console.log(calculateFactorial(1));
-// console.log(calculateFactorial(0));
-// console.log(calculateFactorial('sdfsfsdf'));
-// console.log(calculateFactorial(-120102));
-// console.log(calculateFactorial(20));
+// // console.log(calculateFactorial(2));
+// // console.log(calculateFactorial(1));
+// // console.log(calculateFactorial(0));
+// // console.log(calculateFactorial('sdfsfsdf'));
+// // console.log(calculateFactorial(-120102));
+// // console.log(calculateFactorial(20));
+//console.log(calculateFactorial(1.4))
